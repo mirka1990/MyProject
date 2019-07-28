@@ -1,0 +1,597 @@
+@font-face {
+  font-family: "Cordale Regular";
+  src: url("fonts/Cordale-Regular.eot?") format("eot"), url("fonts/Cordale-Regular.woff2") format("woff2"), url("fonts/Cordale-Regular.woff") format("woff"), url("fonts/Cordale-Regular.ttf") format("truetype"), url("fonts/Cordale-Regular.svg") format("svg"); }
+
+@font-face {
+  font-family: JohnSansTextPro-Bold;
+  src: url("../fonts/JohnSansTextPro-Bold_gdi.ttf"); }
+
+@font-face {
+  font-family: JohnSansTextPro;
+  src: url("../fonts/JohnSansTextPro_gdi.ttf"); }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.main-header {
+  background: url("../image/Vector-Smart-Object.png"), url("../image/header-image.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  filter: brightness(96%);
+  background-color: #e5eaea; }
+  @media only screen and (min-width: 768px) and (max-width: 1050px) {
+    .main-header {
+      background: url("../image/Vector-Smart-Object-tablet.png"), url("../image/header-image-tablet.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      filter: brightness(96%);
+      background-color: #e5eaea; } }
+  @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+    .main-header {
+      background: url("../image/Vector-Smart-Object-desktop.png"), url("../image/header-image-desktop.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      filter: brightness(96%);
+      background-color: #e5eaea; } }
+  .main-header .manu-lockup-desktop {
+    display: none; }
+  .main-header .region-header {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 6.25%;
+    box-sizing: border-box;
+    padding-top: 22px; }
+    @media only screen and (min-width: 768px) and (max-width: 1050px) {
+      .main-header .region-header {
+        padding: 0 2.86%;
+        padding-top: 50px; } }
+    @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+      .main-header .region-header {
+        padding: 0 3.47%;
+        padding-top: 50px; } }
+    .main-header .region-header .logo-left {
+      float: left; }
+    .main-header .region-header .hamburger-menu {
+      float: right; }
+      .main-header .region-header .hamburger-menu .text-menu {
+        margin: 0;
+        font-size: 12px;
+        text-align: center;
+        color: #636359;
+        font-family: JohnSansTextPro; }
+  .main-header .article {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 6.25%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto;
+    position: relative;
+    margin-top: 305px; }
+    @media only screen and (min-width: 768px) and (max-width: 1050px) {
+      .main-header .article {
+        padding: 0 2.86%;
+        margin-top: 260px; } }
+    @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+      .main-header .article {
+        padding: 0 3.47%;
+        margin-top: 160px; } }
+    @media only screen and (min-width: 768px) and (max-width: 1050px) {
+      .main-header .article .article--main-header {
+        margin-left: calc(100% - 313px); } }
+    @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+      .main-header .article .article--main-header {
+        margin-left: calc(100% - 553px); } }
+    .main-header .article .article--main-header h1 {
+      font-size: 29px;
+      color: #666666;
+      font-family: CordaleRegular;
+      font-weight: 100;
+      margin: 0; }
+      @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+        .main-header .article .article--main-header h1 {
+          font-size: 40px; } }
+    .main-header .article .article--main-header .article-text {
+      font-size: 14px;
+      color: #666666;
+      font-family: JohnSansTextPro;
+      margin-bottom: 0;
+      margin-top: 5px; }
+      @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+        .main-header .article .article--main-header .article-text {
+          font-size: 16px; } }
+    .main-header .article .article--main-header .download-text {
+      display: inline-block;
+      margin-bottom: 44px; }
+      @media only screen and (min-width: 768px) and (max-width: 1050px) {
+        .main-header .article .article--main-header .download-text {
+          margin-bottom: 455px; } }
+      @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+        .main-header .article .article--main-header .download-text {
+          margin-bottom: 490px; } }
+      .main-header .article .article--main-header .download-text .article-downlode {
+        font-size: 14px;
+        color: #666666;
+        font-family: JohnSansTextPro-Bold; }
+        @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+          .main-header .article .article--main-header .download-text .article-downlode {
+            font-size: 16px; } }
+        .main-header .article .article--main-header .download-text .article-downlode .article-download--pdf {
+          font-family: JohnSansTextPro; }
+    .main-header .article .dots-header {
+      position: absolute;
+      right: 16px;
+      top: -77px; }
+      @media only screen and (min-width: 768px) and (max-width: 1050px) {
+        .main-header .article .dots-header {
+          right: 2.86%;
+          top: 0; } }
+      @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+        .main-header .article .dots-header {
+          right: 3.47%;
+          top: 191px; } }
+      .main-header .article .dots-header .dot {
+        padding: 5px;
+        border: 1px solid gray;
+        border-radius: 50px;
+        margin-bottom: 5px; }
+      .main-header .article .dots-header .dot-blue {
+        background: #008c8e; }
+    .main-header .article .down {
+      display: grid;
+      grid-template-columns: auto;
+      margin-top: 20px; }
+      .main-header .article .down .down--text {
+        margin-bottom: 49px; }
+        @media only screen and (min-width: 768px) and (max-width: 1050px) {
+          .main-header .article .down .down--text {
+            margin-bottom: 371px;
+            margin-left: calc(100% - 313px); } }
+        @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+          .main-header .article .down .down--text {
+            margin-bottom: 574px;
+            margin-left: calc(100% - 553px); } }
+        .main-header .article .down .down--text .download-text {
+          display: inline; }
+          .main-header .article .down .down--text .download-text .article-downlode {
+            color: #666666;
+            font-size: 14px; }
+      .main-header .article .down .down--arow-download {
+        position: relative; }
+        @media only screen and (min-width: 768px) and (max-width: 1050px) {
+          .main-header .article .down .down--arow-download {
+            text-align: center;
+            margin-bottom: 50px; } }
+        @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+          .main-header .article .down .down--arow-download {
+            text-align: center;
+            margin-bottom: 50px; } }
+        .main-header .article .down .down--arow-download .only-tab-des {
+          display: none; }
+          @media only screen and (min-width: 768px) and (max-width: 1050px) {
+            .main-header .article .down .down--arow-download .only-tab-des {
+              display: inline;
+              font-size: 14px;
+              color: #666666;
+              font-family: JohnSansTextPro; } }
+          @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+            .main-header .article .down .down--arow-download .only-tab-des {
+              display: inline;
+              font-size: 14px;
+              color: #666666;
+              font-family: JohnSansTextPro; } }
+        .main-header .article .down .down--arow-download .down-arrow {
+          position: absolute;
+          top: -33px;
+          right: 50%;
+          padding: 25px 25px 0 25px;
+          background: url("../image/Shape.png") no-repeat; }
+          @media only screen and (min-width: 768px) and (max-width: 1050px) {
+            .main-header .article .down .down--arow-download .down-arrow {
+              top: 51px;
+              right: 50%; } }
+          @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+            .main-header .article .down .down--arow-download .down-arrow {
+              top: 51px;
+              right: 50%; } }
+
+.graph-menu {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 6.25%;
+  box-sizing: border-box;
+  position: relative; }
+  @media only screen and (min-width: 768px) and (max-width: 1050px) {
+    .graph-menu {
+      padding: 0 2.86%; } }
+  @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+    .graph-menu {
+      padding: 0 3.47%; } }
+  .graph-menu .graph--title {
+    margin-top: 49px;
+    margin-bottom: 0; }
+    @media only screen and (min-width: 768px) and (max-width: 1050px) {
+      .graph-menu .graph--title {
+        margin-top: 96px; } }
+    @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+      .graph-menu .graph--title {
+        margin-top: 96px; } }
+    .graph-menu .graph--title h3 {
+      font-size: 18px;
+      font-family: JohnSansTextPro;
+      color: #666666;
+      margin-top: 0;
+      margin-bottom: 20px; }
+    .graph-menu .graph--title h2 {
+      font-size: 24px;
+      color: #f15a22;
+      font-family: CordaleRegular;
+      margin-top: 0;
+      margin-bottom: 40px; }
+      @media only screen and (min-width: 768px) and (max-width: 1050px) {
+        .graph-menu .graph--title h2 {
+          margin-bottom: 50px; } }
+      @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+        .graph-menu .graph--title h2 {
+          font-size: 36px;
+          margin-bottom: 50px; } }
+  .graph-menu .graph {
+    display: grid;
+    grid-template-columns: auto; }
+    @media only screen and (min-width: 768px) and (max-width: 1050px) {
+      .graph-menu .graph {
+        grid-template-columns: auto auto;
+        grid-column-gap: 20px; } }
+    @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+      .graph-menu .graph {
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 30px; } }
+    .graph-menu .graph .graph--highlights {
+      display: grid;
+      grid-template-columns: auto; }
+      .graph-menu .graph .graph--highlights h3 {
+        font-size: 18px;
+        color: #f15a22;
+        font-family: JohnSansTextPro;
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        margin-top: 0; }
+        @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+          .graph-menu .graph .graph--highlights h3 {
+            font-size: 24px; } }
+      .graph-menu .graph .graph--highlights .op-profit {
+        max-width: 100%; }
+        .graph-menu .graph .graph--highlights .op-profit .prof {
+          font-size: 14px;
+          color: #666666;
+          font-family: JohnSansTextPro;
+          font-weight: bold;
+          margin-bottom: 30px;
+          margin-top: 0;
+          width: 80%;
+          height: 32px; }
+          @media only screen and (min-width: 768px) and (max-width: 1050px) {
+            .graph-menu .graph .graph--highlights .op-profit .prof {
+              height: 32px; } }
+          @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+            .graph-menu .graph .graph--highlights .op-profit .prof {
+              height: 35px; } }
+        .graph-menu .graph .graph--highlights .op-profit .pr {
+          width: 90%; }
+        .graph-menu .graph .graph--highlights .op-profit .price {
+          font-size: 48px;
+          color: #f15a22;
+          font-family: JohnSansTextPro;
+          border-bottom: 1px solid #e0e0e0;
+          padding-bottom: 20px;
+          margin-bottom: 20px;
+          margin-top: 0; }
+        .graph-menu .graph .graph--highlights .op-profit .underline {
+          border-bottom: none; }
+      .graph-menu .graph .graph--highlights .percentages {
+        display: grid;
+        grid-template-columns: auto auto; }
+    .graph-menu .graph .graph--profit .prof {
+      margin-top: 0;
+      font-size: 14px;
+      color: #666666;
+      font-family: JohnSansTextPro;
+      font-weight: bold; }
+    .graph-menu .graph .graph--profit .img-graph {
+      margin-bottom: 30px; }
+      @media only screen and (min-width: 768px) and (max-width: 1050px) {
+        .graph-menu .graph .graph--profit .img-graph {
+          margin-bottom: 49px; } }
+    @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+      .graph-menu .graph .graph--text {
+        grid-column: 1 / span 3;
+        margin-top: 40px; } }
+    .graph-menu .graph .graph--text .graph--text-info {
+      font-size: 14px;
+      color: #666666;
+      font-family: JohnSansTextPro;
+      margin-top: 0;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #e0e0e0; }
+      @media only screen and (min-width: 768px) and (max-width: 1050px) {
+        .graph-menu .graph .graph--text .graph--text-info {
+          border-bottom: unset; } }
+      @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+        .graph-menu .graph .graph--text .graph--text-info {
+          padding-bottom: 68px; } }
+    .graph-menu .graph .dots-header {
+      display: none;
+      position: absolute; }
+      @media only screen and (min-width: 768px) and (max-width: 1050px) {
+        .graph-menu .graph .dots-header {
+          display: inline;
+          right: 2.86%;
+          top: 404px; } }
+      @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+        .graph-menu .graph .dots-header {
+          display: inline;
+          right: 3.47%;
+          top: 404px; } }
+      .graph-menu .graph .dots-header .dot {
+        padding: 5px;
+        border: 1px solid gray;
+        border-radius: 50px;
+        margin-bottom: 5px; }
+      .graph-menu .graph .dots-header .dot-blue {
+        background: #008c8e; }
+  .graph-menu .down {
+    margin-bottom: 55px; }
+    .graph-menu .down .download-text {
+      display: inline; }
+      .graph-menu .down .download-text .article-downlode {
+        color: #666666;
+        font-size: 14px; }
+    .graph-menu .down .down-arrow {
+      position: absolute;
+      bottom: 0;
+      right: 50%;
+      padding: 25px 25px 0 25px;
+      background: url("../image/Shape.png") no-repeat; }
+      @media only screen and (min-width: 768px) and (max-width: 1050px) {
+        .graph-menu .down .down-arrow {
+          right: 50%; } }
+      @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+        .graph-menu .down .down-arrow {
+          right: 50%; } }
+    @media only screen and (min-width: 768px) and (max-width: 1050px) {
+      .graph-menu .down {
+        margin-bottom: 67px;
+        border-top: 1px solid #e0e0e0;
+        padding-top: 15px; } }
+    @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+      .graph-menu .down {
+        margin-bottom: 67px; } }
+
+.review {
+  display: grid;
+  grid-template-columns: auto;
+  background: #e7e7e7;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 6.25%;
+  box-sizing: border-box;
+  padding: unset; }
+  @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+    .review {
+      grid-template-columns: auto auto; } }
+  .review .review--interview .photo-review-mob {
+    max-width: 100%; }
+    @media only screen and (min-width: 768px) and (max-width: 1050px) {
+      .review .review--interview .photo-review-mob {
+        display: none; } }
+    @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+      .review .review--interview .photo-review-mob {
+        display: none; } }
+  .review .review--interview .photo-review-tab {
+    display: none; }
+    @media only screen and (min-width: 768px) and (max-width: 1050px) {
+      .review .review--interview .photo-review-tab {
+        display: inline;
+        max-width: 100%; } }
+    @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+      .review .review--interview .photo-review-tab {
+        display: none; } }
+  .review .review--interview .photo-review-des {
+    display: none; }
+    @media only screen and (min-width: 768px) and (max-width: 1050px) {
+      .review .review--interview .photo-review-des {
+        display: none; } }
+    @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+      .review .review--interview .photo-review-des {
+        display: inline;
+        max-width: 100%; } }
+  .review .review--interview .review-text {
+    background: #e7e7e7;
+    padding: 0 6.25%; }
+    @media only screen and (min-width: 768px) and (max-width: 1050px) {
+      .review .review--interview .review-text {
+        padding: 0 2.86%; } }
+    @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+      .review .review--interview .review-text {
+        padding: 0 3.47%;
+        width: 80%; } }
+    .review .review--interview .review-text h2 {
+      font-size: 18px;
+      color: #666666;
+      font-family: JohnSansTextPro;
+      padding-top: 28px;
+      margin-bottom: 0; }
+      @media only screen and (min-width: 768px) and (max-width: 1050px) {
+        .review .review--interview .review-text h2 {
+          margin-top: 25px; } }
+    .review .review--interview .review-text h3 {
+      font-size: 24px;
+      color: #008c8e;
+      font-family: CordaleRegular;
+      margin-top: 28px;
+      margin-bottom: 0; }
+      @media only screen and (min-width: 768px) and (max-width: 1050px) {
+        .review .review--interview .review-text h3 {
+          margin-top: 18px;
+          font-size: 36px; } }
+      @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+        .review .review--interview .review-text h3 {
+          font-size: 36px;
+          margin-top: 18px; } }
+    .review .review--interview .review-text .purple {
+      color: #ad1566; }
+    .review .review--interview .review-text p {
+      font-size: 14px;
+      line-height: 20px;
+      color: #666666;
+      font-family: JohnSansTextPro;
+      margin-top: 25px;
+      padding-bottom: 30px;
+      margin-bottom: 0; }
+      @media only screen and (min-width: 768px) and (max-width: 1050px) {
+        .review .review--interview .review-text p {
+          font-size: 16px;
+          line-height: 26px; } }
+      @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+        .review .review--interview .review-text p {
+          font-size: 16px;
+          line-height: 26px; } }
+    .review .review--interview .review-text .uderline {
+      padding-bottom: 55px;
+      border-bottom: 2px solid #e0e0e0;
+      margin-bottom: 15px; }
+      @media only screen and (min-width: 768px) and (max-width: 1050px) {
+        .review .review--interview .review-text .uderline {
+          padding-bottom: 30px; } }
+      @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+        .review .review--interview .review-text .uderline {
+          border-bottom: unset; } }
+  .review .dots-header {
+    display: none;
+    position: absolute; }
+    @media only screen and (min-width: 768px) and (max-width: 1050px) {
+      .review .dots-header {
+        display: inline;
+        right: 2.86%;
+        top: 480px; } }
+    @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+      .review .dots-header {
+        display: inline;
+        right: 3.47%;
+        top: 404px; } }
+    .review .dots-header .dot {
+      padding: 5px;
+      border: 1px solid gray;
+      border-radius: 50px;
+      margin-bottom: 5px; }
+    .review .dots-header .dot-blue {
+      background: #008c8e; }
+  .review .down {
+    background: #e7e7e7;
+    position: relative;
+    padding: 0 6.25%; }
+    @media only screen and (min-width: 768px) and (max-width: 1050px) {
+      .review .down {
+        padding: 0 2.86%; } }
+    @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+      .review .down {
+        grid-column: 1 / span 2;
+        padding: 0 3.47%; } }
+    .review .down .down-first-link {
+      margin-bottom: 10px; }
+      .review .down .down-first-link .download-text {
+        display: inline; }
+        .review .down .down-first-link .download-text .article-downlode {
+          font-size: 14px;
+          color: #666666;
+          font-family: JohnSansTextPro-Bold; }
+      .review .down .down-first-link .down-arrow {
+        position: absolute;
+        right: 50%;
+        bottom: 0;
+        padding: 25px 25px 0 25px;
+        background: url("../image/Shape.png") no-repeat; }
+    .review .down .down-second-link {
+      margin-bottom: 81px; }
+      @media only screen and (min-width: 768px) and (max-width: 1050px) {
+        .review .down .down-second-link {
+          margin-bottom: 68px; } }
+
+.area {
+  display: grid;
+  grid-template-columns: auto; }
+  .area .white--area {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 6.25%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #ffffff; }
+    .area .white--area .main-area {
+      margin-top: 85px; }
+      .area .white--area .main-area h3 {
+        font-size: 18px;
+        color: #666666;
+        font-family: JohnSansTextPro;
+        margin-top: 0;
+        margin-bottom: 0; }
+      .area .white--area .main-area h2 {
+        font-size: 24px;
+        color: #008c8e;
+        font-family: CordaleRegular;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 54px; }
+      .area .white--area .main-area p {
+        font-size: 14px;
+        line-height: 18px;
+        color: #666666;
+        font-family: JohnSansTextPro;
+        text-align: center;
+        margin-top: 37px;
+        margin-bottom: 0; }
+    .area .white--area .area-text-one {
+      margin-top: 43px;
+      margin-bottom: 0; }
+      .area .white--area .area-text-one h2 {
+        font-size: 18px;
+        color: #666666;
+        font-family: JohnSansTextPro;
+        font-weight: bold;
+        margin: 0; }
+      .area .white--area .area-text-one p {
+        font-size: 18px;
+        color: #666666;
+        font-family: JohnSansTextPro;
+        margin-top: 15px;
+        margin-bottom: 0; }
+    .area .white--area .area-text-second {
+      margin-top: 13px;
+      margin-bottom: 0; }
+      .area .white--area .area-text-second h2 {
+        font-size: 18px;
+        color: #666666;
+        font-family: JohnSansTextPro;
+        font-weight: bold;
+        margin: 0; }
+      .area .white--area .area-text-second p {
+        font-size: 18px;
+        color: #666666;
+        font-family: JohnSansTextPro;
+        margin-top: 15px;
+        margin-bottom: 55px; }
+  .area .green--area {
+    background-color: #008c8e; }
+    .area .green--area .main-area .green {
+      color: white; }
+    .area .green--area .area-text-one .green {
+      color: white; }
